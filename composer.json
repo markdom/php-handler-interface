@@ -1,0 +1,28 @@
+{
+  "name": "markdom/handler-interface",
+  "type": "library",
+  "description": "Handler and dispatcher interfaces written in PHP",
+  "keywords": [
+    "Markdom",
+    "Handler",
+    "Dispatcher",
+    "Interface"
+  ],
+  "homepage": "http://markenwerk.net/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Martin Brecht-Precht",
+      "email": "mb@markenwerk.net",
+      "homepage": "http://markenwerk.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Markdom\\HandlerInterface": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.3"
+  }
+}
