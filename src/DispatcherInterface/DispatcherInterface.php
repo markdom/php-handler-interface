@@ -1,11 +1,13 @@
 <?php
 
-namespace Markdom\HandlerInterface;
+namespace Markdom\DispatcherInterface;
+
+use Markdom\HandlerInterface\HandlerInterface;
 
 /**
  * Interface DispatcherInterface
  *
- * @package Markdom\HandlerInterface
+ * @package Markdom\DispatcherInterface
  */
 interface DispatcherInterface
 {

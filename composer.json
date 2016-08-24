@@ -19,7 +19,9 @@
   ],
   "autoload": {
     "psr-4": {
-      "Markdom\\HandlerInterface\\": "src"
+      "Markdom\\Common\\": "src/Common",
+      "Markdom\\DispatcherInterface\\": "src/DispatcherInterface",
+      "Markdom\\HandlerInterface\\": "src/HandlerInterface"
     }
   },
   "require": {
