@@ -19,7 +19,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Markdom\\HandlerInterface": "src"
+      "Markdom\\HandlerInterface\\": "src"
     }
   },
   "require": {
