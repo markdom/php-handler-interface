@@ -192,14 +192,14 @@ interface HandlerInterface
 	 * @param string $title
 	 * @return void
 	 */
-	public function onLinkContentBegin($uri, $title);
+	public function onLinkContentBegin($uri, $title = null);
 
 	/**
 	 * @param string $uri
 	 * @param string $title
 	 * @return void
 	 */
-	public function onLinkContentEnd($uri, $title);
+	public function onLinkContentEnd($uri, $title = null);
 
 	/**
 	 * @param string $text
