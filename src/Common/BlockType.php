@@ -7,10 +7,11 @@ namespace Markdom\Common;
  *
  * @package Markdom\Common
  */
-final class BlockType
+class BlockType
 {
 
 	const TYPE_CODE = 'CODE';
+	const TYPE_COMMENT = 'COMMENT';
 	const TYPE_DIVISION = 'DIVISION';
 	const TYPE_HEADING = 'HEADING';
 	const TYPE_UNORDERED_LIST = 'UNORDERED_LIST';
@@ -18,6 +19,5 @@ final class BlockType
 	const TYPE_LIST_ITEM = 'LIST_ITEM';
 	const TYPE_PARAGRAPH = 'PARAGRAPH';
 	const TYPE_QUOTE = 'QUOTE';
-	const TYPE_HTML = 'HTML';
 
 }

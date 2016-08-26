@@ -39,6 +39,12 @@ interface HandlerInterface
 	public function onCodeBlock($code, $hint = null);
 
 	/**
+	 * @param $comment
+	 * @return void
+	 */
+	public function onCommentBlock($comment);
+
+	/**
 	 * @return void
 	 */
 	public function onDivisionBlock();

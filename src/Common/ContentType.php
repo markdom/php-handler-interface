@@ -7,7 +7,7 @@ namespace Markdom\Common;
  *
  * @package Markdom\Common
  */
-final class ContentType
+class ContentType
 {
 
 	const TYPE_CODE = 'CODE';
@@ -16,6 +16,5 @@ final class ContentType
 	const TYPE_LINE_BREAK = 'LINE_BREAK';
 	const TYPE_LINK = 'LINK';
 	const TYPE_TEXT = 'TEXT';
-	const TYPE_HTML = 'HTML';
 
 }
