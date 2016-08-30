@@ -3,11 +3,11 @@
 namespace Markdom\Common;
 
 /**
- * Class EmphasisLevel
+ * Class HeadingLevel
  *
  * @package Markdom\Common
  */
-class EmphasisLevel
+class HeadingLevel
 {
 
 	const LEVEL_1 = 'LEVEL_1';
