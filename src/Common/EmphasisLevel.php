@@ -10,7 +10,7 @@ namespace Markdom\Common;
 class EmphasisLevel
 {
 
-	const LEVEL_1 = 'LEVEL_1';
-	const LEVEL_2 = 'LEVEL_2';
+	const LEVEL_1 = 1;
+	const LEVEL_2 = 2;
 
 }
