@@ -20,6 +20,17 @@ interface DispatcherInterface
 	public function __construct(HandlerInterface $markdomHandler);
 
 	/**
+	 * @return boolean
+	 */
+	public function getDispatchCommentBlocks();
+
+	/**
+	 * @param boolean $dispatchCommentBlocks
+	 * @return $this
+	 */
+	public function setDispatchCommentBlocks($dispatchCommentBlocks);
+
+	/**
 	 * @param $source
 	 * @return $this
 	 */
