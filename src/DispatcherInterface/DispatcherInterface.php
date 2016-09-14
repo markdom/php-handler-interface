@@ -13,27 +13,14 @@ interface DispatcherInterface
 {
 
 	/**
-	 * Parser constructor.
-	 *
 	 * @param HandlerInterface $markdomHandler
+	 * @return mixed
 	 */
-	public function __construct(HandlerInterface $markdomHandler);
+	public function dispatchTo(HandlerInterface $markdomHandler);
 
 	/**
-	 * @return boolean
+	 * @return bool
 	 */
-	public function getDispatchCommentBlocks();
-
-	/**
-	 * @param boolean $dispatchCommentBlocks
-	 * @return $this
-	 */
-	public function setDispatchCommentBlocks($dispatchCommentBlocks);
-
-	/**
-	 * @param $source
-	 * @return $this
-	 */
-	public function process($source);
+	public function isReusable();
 
 }
