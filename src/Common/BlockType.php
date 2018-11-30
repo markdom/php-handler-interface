@@ -10,14 +10,14 @@ namespace Markdom\Common;
 class BlockType
 {
 
-	const TYPE_CODE = 'CODE';
-	const TYPE_COMMENT = 'COMMENT';
-	const TYPE_DIVISION = 'DIVISION';
-	const TYPE_HEADING = 'HEADING';
-	const TYPE_UNORDERED_LIST = 'UNORDERED_LIST';
-	const TYPE_ORDERED_LIST = 'ORDERED_LIST';
-	const TYPE_LIST_ITEM = 'LIST_ITEM';
-	const TYPE_PARAGRAPH = 'PARAGRAPH';
-	const TYPE_QUOTE = 'QUOTE';
+	public const TYPE_CODE = 'CODE';
+	public const TYPE_COMMENT = 'COMMENT';
+	public const TYPE_DIVISION = 'DIVISION';
+	public const TYPE_HEADING = 'HEADING';
+	public const TYPE_UNORDERED_LIST = 'UNORDERED_LIST';
+	public const TYPE_ORDERED_LIST = 'ORDERED_LIST';
+	public const TYPE_LIST_ITEM = 'LIST_ITEM';
+	public const TYPE_PARAGRAPH = 'PARAGRAPH';
+	public const TYPE_QUOTE = 'QUOTE';
 
 }

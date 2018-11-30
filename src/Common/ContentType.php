@@ -10,11 +10,11 @@ namespace Markdom\Common;
 class ContentType
 {
 
-	const TYPE_CODE = 'CODE';
-	const TYPE_EMPHASIS = 'EMPHASIS';
-	const TYPE_IMAGE = 'IMAGE';
-	const TYPE_LINE_BREAK = 'LINE_BREAK';
-	const TYPE_LINK = 'LINK';
-	const TYPE_TEXT = 'TEXT';
+	public const TYPE_CODE = 'CODE';
+	public const TYPE_EMPHASIS = 'EMPHASIS';
+	public const TYPE_IMAGE = 'IMAGE';
+	public const TYPE_LINE_BREAK = 'LINE_BREAK';
+	public const TYPE_LINK = 'LINK';
+	public const TYPE_TEXT = 'TEXT';
 
 }
