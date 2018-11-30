@@ -21,6 +21,6 @@ interface DispatcherInterface
 	/**
 	 * @return bool
 	 */
-	public function isReusable();
+	public function isReusable(): bool;
 
 }
